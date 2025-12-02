@@ -39,9 +39,9 @@ import sys
 
 import pandas as pd
 
-sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent.parent))
+sys.path.append(str(pathlib.Path(__file__).resolve().parent.parent))
 
-from utils.logger import logger
+from utils_logger import logger
 
 # Global constants for paths and key directories
 
@@ -49,7 +49,7 @@ THIS_DIR: pathlib.Path = pathlib.Path(__file__).resolve().parent
 DW_DIR: pathlib.Path = THIS_DIR  # src/analytics_project/dw/
 PACKAGE_DIR: pathlib.Path = DW_DIR.parent  # src/analytics_project/
 SRC_DIR: pathlib.Path = PACKAGE_DIR.parent  # src/
-PROJECT_ROOT_DIR: pathlib.Path = SRC_DIR.parent / "smart-store-calebsellinger"  # project_root/
+PROJECT_ROOT_DIR: pathlib.Path = SRC_DIR.parent / "CS44632-Module-P7"  # project_root/
 # print(f"{PROJECT_ROOT_DIR}")
 
 # Data directories
