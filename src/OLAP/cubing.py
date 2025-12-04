@@ -165,7 +165,7 @@ def main():
     print(sales_df.head())
 
     # # Step 2: Define dimensions and metrics for the cube
-    dimensions = ["region", "customer_id", "category", "product_id"]
+    dimensions = ["region", "customer_id","name", "category", "product_id","product_name","paymnt_type"]
     metrics = {"sale_amount": ["sum", "mean"]}
 
     # Step 3: Create the cube

@@ -27,11 +27,16 @@ Python
 5. Calculate sale_amount by region.
 6. Slice by product category
 7. Slice by product_id
-8. Calculate percentages of preferred payment method
+8. Calculate ~~percentages~~ counts of preferred payment method
 
 #### Section 5. Results (narrative + visualizations)
 
-
+Top Customers: The top 5 customers all spend $20,000 or more.
+Top Customers per Region: 
+Revenue by Region: The North and East regions make the most revenue.
+Top Categories by Region: The Home category makes the most revenue in 4 out of 6 regions.
+Top Products by Region: The top products are Electronics-Letter and Office-Cultural, which are in the Electronics and Home categories, respectively.
+Preferred Payment Method: The preferred payment method in all regions, except the West, is Cash.
 
 #### Section 6. Suggested Business Action
 
@@ -39,7 +44,7 @@ Python
 
 #### Section 7. Challenges
 
-
+Lots of Key Errors, but thats just me either forgetting the name of a column or omitting the column that I needed entirely before trying to access it. Overall, went well.
 
 #### Section 8. Ethical Considerations
 
